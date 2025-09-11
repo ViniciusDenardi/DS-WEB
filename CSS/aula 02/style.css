@@ -1,0 +1,35 @@
+h1{
+    text-shadow: 2px 2px 4px black;
+}
+
+h1 {
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+img {
+border: 5px solid black;
+border-radius: 10px;
+box-shadow: 10px 10px 10px gray;
+}
+table, th, td {
+border: 1px solid black;
+}
+table {
+border-collapse: collapse;
+}
+th, td {
+padding: 10px;
+text-align: center;
+}
+th {
+background-color: #333;
+color: white;
+}
+td {
+background-color: #f2f2f2;
+}
+
+
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title> Exercicio 4</title>
+    </head>
+    <body> 
+        <h1> <center> Atividade 04</center></h1>
+        <hr>
+        <form action="processa.php" method="post">
+            <h1> Gênero </h1>
+            <input type="radio" id="opcao1" name="escolha" value="1">
+            <label for="opcao1">Masculino</label>
+            <input type="radio" id="opcao2" name="escolha" value="2" >
+            <label for="opcao2">Feminino</label>
+            <input type="radio" id="opcao3" name="escolha" value="3" >
+            <label for="opcao2">Outro</label>
+            <br>
+            <hr>
+            <h1> Interesses </h1>
+            <input type="checkbox" id="Tecnologia" name="interesses" value="Tecnologia" >
+            <label for="Tecnologia"> Tecnologias </label>
+            <input type="checkbox" id="Esportes" name="interesses" value="Esportes" > 
+            <label for="Esportes">Esportes</label>
+            <input type="checkbox" id="Arte" name="interesses" value="Arte">
+            <label for="Arte"> Arte </label>
+            <input type="checkbox" id="Musica" name="interesses" value="Musica" checked> 
+            <label for="Musica">Música</label>
+            <br>
+            <hr>
+            <h1> Escolha seu carro favorito </h1>
+            <label for="carros">Escolha um carro:</label>
+            <br>
+            <select id="carros" name="carros[]" multiple>
+            <optgroup label="Sedans">
+            <option value="corolla">Toyota Corolla</option>
+            <option value="civic">Honda Civic</option>
+            </optgroup>
+            <optgroup label="SUVs">
+            <option value="crv">Honda CR-V</option>
+            <option value="rav4">Toyota RAV4</option>
+            </optgroup>
+        </select>
+        <br>
+        <hr>
+        <input type="submit" value="Enviar">
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <title> Atividade 05 </title>
+    </head>
+    <body> 
+        <h1> <center> Formulário de feedback</center></h1>
+        <hr>
+        <form action="processa.php" method="post">
+            <h2> Insira seu nome ( opcional) </h2>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder=" Digite seu nome"> 
+            <br>
+            <hr>
+            <h2> Insira seu email ( obrigatório ) </h2>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu email">
+            <br>
+            <hr>
+            <h2>Sua opinião</h2>
+            <form>
+            <label for="opiniao">Opinião:</label>
+            <br>
+            <textarea id="opiniao" name="opiniao" rows="6" cols="50" max-length="300" required>
+          Digite sua opinião aqui,contando a sua experiência com o site e se foi relevante para você
+            </textarea>
+            <br>
+            <hr>
+            <input type="submit" value="Enviar">
+<           </form>

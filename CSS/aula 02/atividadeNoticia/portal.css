@@ -1,0 +1,48 @@
+/*css portal*/
+h1 {
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h3{ 
+    font-size: 20px;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+      
+    text-align: center
+}
+.divtitulo{
+    padding: 15px;
+    background-color: mediumpurple;
+    color: black;
+    height: 140px;
+    border: 1px solid black ;
+}
+.titulogeral{
+    color: indigo;
+}
+table,th,td{
+    border: 1px solid black;
+    color: black;
+    font-family: sans-serif ;
+    font-size: 25px;
+}
+a {
+text-decoration: none;
+color: purple;
+}
+th{
+    background-color: mediumorchid;
+    font-weight: 100;
+}
+.inc{
+    font-size: 20px;
+}
+tr:nth-child(even) { /* linhas pares */
+background-color:  gainsboro;
+}
+tr:nth-child(odd) { /* linhas ímpares */
+background-color: whitesmoke;
+}

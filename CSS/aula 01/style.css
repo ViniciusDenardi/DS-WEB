@@ -1,0 +1,27 @@
+
+/*Comentario em css*/
+/*comentario de css*/
+/*seletor universal
+
+*{
+    color:brown;
+}
+ */
+
+ p{
+    color: aqua;
+ }
+ /*seletor class*/
+ .bolha {
+    color: white;
+ }
+ /*seletor id*/
+ #henry{
+    color: red;
+ }
+ body {
+    background: linear-gradient(to right, white,black);
+ }
+ h1 {
+    color: lightblue;
+ }
