@@ -1,0 +1,120 @@
+.div1{
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+    padding: 15px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.div1:hover{
+    color: white;
+}  
+
+.div2{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    padding: 15px;
+    border: 2px dashed black;
+    border-collapse: collapse;
+     margin: 10px;
+}
+.div2:hover{
+    color: white;
+}  
+.div3{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    padding: 15px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.div3:hover{
+    color: white;
+}  
+.divisao1{
+    display: inline-block;
+    margin: 10px;
+}
+.div4{
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+    padding: 15px;
+    border: 2px dashed black;
+     margin: 10px;
+}
+.div4:hover{
+    color: white;
+}  
+.div5{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    padding: 15px;
+    border: 2px solid black;
+     margin: 10px;
+}
+.div5:hover{
+    color: white;
+}  
+.div6{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    padding: 15px;
+    border: 2px dashed black;
+     margin: 10px;
+}
+.div6:hover{
+    color: white;
+}  
+.divisao2{
+    display: inline-block;
+    margin: 10px;
+}
+.div7{
+    width: 50px;
+    height: 50px;
+    background-color: olivedrab;
+    padding: 15px;
+    border: 2px solid black;
+     margin: 10px;
+}
+.div7:hover{
+    color: white;
+}  
+.div8{
+    width: 50px;
+    height: 50px;
+    background-color: salmon;
+    padding: 15px;
+    border: 2px dashed black;
+     margin: 10px;
+}
+.div8:hover{
+    color: white;
+}  
+.div9{
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    padding: 15px;
+    border: 2px solid black;
+     margin: 10px;
+}
+.div9:hover{
+    color: white;
+}  
+.divisao3{
+    display: inline-block;
+    margin: 10px;
+}
+div{
+    align-content: center;
+    text-align: center;
+}
+.maior{
+    align-content: center;
+}

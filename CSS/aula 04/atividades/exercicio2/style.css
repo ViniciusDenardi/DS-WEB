@@ -1,0 +1,18 @@
+.div1{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    padding: 15px;
+    border: 2px solid black;
+}
+.div2{
+    width: 150px;
+    height: 150px;
+    background-color: yellowgreen;
+    padding: 15px;
+    border: 2px solid black;
+}
+div{
+    display: inline-block;
+    margin: 10px;
+}

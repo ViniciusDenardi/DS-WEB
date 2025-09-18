@@ -1,0 +1,17 @@
+.caixaprincipal{
+    background-color: aqua;
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    border: 2px solid black;
+    text-align: justify; 
+}
+.caixamenor{
+    background-color: aliceblue;
+    width: 200px;
+    height: 100px;
+    margin: 70px auto;
+    border: 2px solid black;
+    text-align: center; 
+    align-content: center;
+}

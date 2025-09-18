@@ -1,0 +1,37 @@
+.cartao1{
+    background-color: red;
+    display: inline-block;
+    width: 200px; 
+    height: 250px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center; 
+    align-content: center;
+    
+}
+.cartao2{
+    background-color: orange;
+    display: inline-block;
+    width: 200px; 
+    height: 250px;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center; 
+    align-content: center;
+}
+.cartao3{
+    background-color: yellow;
+    display: inline-block;
+    width: 200px; 
+    height: 250px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center; 
+    align-content: center;
+}
+.cartoes{
+ margin: 15px;
+}

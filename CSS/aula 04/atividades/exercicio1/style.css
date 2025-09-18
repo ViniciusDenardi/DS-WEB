@@ -1,0 +1,10 @@
+.exr1{
+    width: 300px;
+    height: 200px;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center; 
+    align-content: center;
+    border: 2px solid black;
+}

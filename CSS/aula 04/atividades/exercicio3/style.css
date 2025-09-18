@@ -1,0 +1,42 @@
+.menu{
+    margin: 5px;
+    background-color: wheat;
+    border: 2px solid black;
+    
+}
+.it1{
+    background-color: yellow;
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    text-align: center; 
+    align-content: center;
+    border: 2px solid black;
+}
+.it2{
+    background-color: yellow;
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    text-align: center; 
+    align-content: center;
+    border: 2px solid black;
+}
+.it3{
+    background-color: yellow;
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    text-align: center; 
+    align-content: center;
+    border: 2px solid black;
+}
+.it4{
+    background-color: yellow;
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    text-align: center; 
+    align-content: center;
+    border: 2px solid black;
+}
