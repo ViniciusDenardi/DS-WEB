@@ -1,0 +1,96 @@
+
+   
+
+
+.v{
+    background-color: aqua;
+    margin-top: 10px;
+    position:sticky;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    align-content: center;
+}
+.i1{
+    background-color: greenyellow;
+    margin-top: 10px;
+    position:sticky;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    left: 50px;
+    text-align: center;
+    align-content: center;
+}
+.n{
+    background-color: firebrick;
+    margin-top: 10px;
+    position:sticky;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    left: 100px;
+    text-align: center;
+    align-content: center;
+}
+.i2{
+    background-color: yellow;
+    margin-top: 10px;
+    position:sticky;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    left: 150px;
+    text-align: center;
+    align-content: center;
+}
+.c{
+    background-color: purple;
+    margin-top: 10px;
+    position:sticky;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    left: 200px;
+    text-align: center;
+    align-content: center;
+}
+.i3{
+    background-color: crimson;
+    margin-top: 10px;
+    position:sticky;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    left: 250px;
+    text-align: center;
+    align-content: center;
+}
+.u{
+    background-color:goldenrod;
+    margin-top: 10px;
+    position:sticky;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    left: 300px;
+    text-align: center;
+    align-content: center;
+}
+.s{
+    background-color: silver;
+    margin-top: 10px;
+    position: sticky;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    left: 350px;
+    text-align: center;
+    align-content: center;
+}
+.decoracao{
+    height: 2000px;
+    width: 100px;
+}

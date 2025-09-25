@@ -1,0 +1,40 @@
+.menu{
+    position: fixed;
+     top: 0; 
+     left: 0; 
+     width: 100%; 
+     height: 60px; 
+     color: white;
+     background-color: black;
+     font-size: x-large;
+     text-align: center;
+     align-content: center;
+     ;
+}
+.corpo{
+    margin-top: 20px;
+    margin-left: 250px;
+    display: inline-block;
+    width: 82%;
+    border: solid 1px;
+    padding: 10px;
+   
+}
+
+.decoração{
+    width: 100px;
+    height: 20px;
+    background-color: aliceblue;
+}
+.menulateral{
+    width: 250px;
+    height: 1000px;
+    background-color: darkgrey;
+    text-align: center;
+    align-content: center;
+    position: fixed;
+    display: inline-block;
+    
+    
+}
+

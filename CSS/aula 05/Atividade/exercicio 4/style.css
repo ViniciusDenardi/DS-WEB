@@ -1,0 +1,14 @@
+.cabecalho{
+    font-size: large;
+    text-align: center; 
+    align-content: center;
+    background-color: orange;
+    width: 0 auto;
+    height: 60px;
+    position: sticky; 
+    top: 0;
+}
+.decoracao{
+    width: 100px;
+    height: 60px;
+}
