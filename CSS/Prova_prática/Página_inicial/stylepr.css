@@ -1,0 +1,78 @@
+.menu{
+    height: 50px;
+    width: 2000px;
+    background-color: rgb(177, 66, 66);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-content: center;
+    padding-bottom: 20px;
+    padding: 15px;
+    text-align: left ;
+}
+body{
+     background-color: burlywood;
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.index{
+    display: inline-block;
+    padding: 15px;
+    background-color: rgb(177, 110, 110);
+}
+.paginar{
+    display: inline-block;
+    padding: 15px;
+    background-color: rgb(177, 110, 110);
+}
+.paginap{
+    display: inline-block;
+    padding: 15px;
+    background-color: rgb(177, 110, 110);
+}
+.paginac{
+    display: inline-block;
+    padding: 15px;
+    background-color: rgb(177, 110, 110);
+}
+a {
+text-decoration: none;
+color: palegoldenrod;
+}
+.formulario{
+    background-color: rgb(227, 151, 125);
+    border: 2px solid black;
+    margin: 80px;
+    width: 1300px;
+    height: 400px;
+    padding: 10px;
+}
+label{
+    color: rgba(197, 85, 6, 0.76);
+    font-size: large;
+    padding: 5px;
+}
+input{
+    padding: 5px;
+    width: 250px;
+    border: 1px solid black;
+    margin: 5px;
+}
+.botao{
+    padding: 10px;
+    height: 30px;
+    width: 258px;
+    color: black;
+}
+.botao:hover{
+   background-color: crimson;
+   
+    
+}  
+h1{
+    background-color: rgb(227, 151, 125);
+    width: auto;
+    align-content: center;
+    text-align: center;
+}

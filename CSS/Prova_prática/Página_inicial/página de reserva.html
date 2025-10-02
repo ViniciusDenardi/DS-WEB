@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylepr.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+    <title>Página inicial</title>
+</head>
+<body>
+    <div class="menu"> Sabor & Arte- 
+        Menu 
+        <div class="index"><a href="index.html" >Página inicial </a></div>
+        
+        <div class="paginar"><a href="página de reserva.html">Página de reserva</a></div>
+
+        <div class="paginap"><a href="página de promoção.html">Página de promoção </a> </div>
+
+        <div class="paginac"><a href="página cardapio.html">Página cardapio </a></div>
+        
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 align="center"> <strong> Faça sua reserva aqui </strong></h1>
+    <div class=" formulario"> 
+     <form action="processa.php" method="post">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" maxlength="50" required placeholder=" Digite seu nome"> 
+    <br>
+    <hr>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required placeholder="Digite seu email">
+    <br>
+    <hr>
+    <label for="telefone">Telefone:</label >
+    <input type="tel" id="Telefone" name="Telefone" maxlength="11" placeholder="Dgite seu telefone">
+    <br>
+    <hr>
+    <label for="Quantidade de pessoas">Quantidade de pessoas:</label>
+    <input type="number" id="Quantidade" name="Quantidade de pessoas" required placeholder="Digite a quantidade de pessoas"  min="0" max="10">
+    <br>
+    <hr>
+    <label for="opiniao">comentário:</label>
+    <br>
+    <textarea id="opiniao" name="opiniao" rows="6" cols="50" max-length="300" required>
+        Digite seu comentário aqui, informando o horário da reserva e o dia. Se estiver com alguma dúvida, também pode digitar nesse espaço
+    </textarea>
+    <br>
+    <div ><input  class="botao" type="submit" value="Enviar"> </div>
+    </form>
+    </div>
+</body>
+</html>
