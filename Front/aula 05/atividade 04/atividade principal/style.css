@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background: rgb(160, 224, 160);
+}
+
+.area {
+    margin: 0 auto;
+    width: 650px;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 50px;
+    
+}
+
+
+.posicao {
+    font-weight: bold;
+}
+
+.espacamento {
+    height: 500px;
+}
+
+.area2 {
+    margin: 0 auto;
+    width: 650px;
+    height: 400px;
+    border: 1px solid black;
+    margin-top: 150px;
+    background-color: white;
+     width: 45%; 
+ 
+    
+}
+  .quadrado{
+            height: 20px;
+            width: 20px;
+            background-color: black;
+            border-radius: 100px;
+            position:absolute;
+        }
+.DICA {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: whitesmoke;
+}

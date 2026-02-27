@@ -35,8 +35,8 @@ function adicionar(){
 
   
     document.getElementById("lista").appendChild(novoItem);
-    let separador = document.createElement("hr");
-    document.getElementById("lista").appendChild(separador);
+    let linha = document.createElement("hr");
+    document.getElementById("lista").appendChild(linha);
 }
 
 
