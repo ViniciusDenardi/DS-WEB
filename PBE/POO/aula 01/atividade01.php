@@ -7,7 +7,7 @@
         public $capacidade;
         
         public function voar() { 
-            return "<br>o aviao do modelo ".$this->modelo . " voou";
+            return "<br>O aviao do modelo ".$this->modelo . " voou";
         
         }
      
@@ -49,7 +49,7 @@
 
 
          public function resfriar() { 
-            return " <br>o ar de modelo   ".$this->modelo . " resfriou a temperatura" ;
+            return " <br>O ar de modelo   ".$this->modelo . " resfriou a temperatura" ;
         }
          public function esquentar() { 
             return "<br>A temperatura esquentou por conta da ".$this->potencia . " potencia do ar";
@@ -84,13 +84,13 @@
 
 
          public function apoiar() { 
-            return "<br>a cadeira de  ".$this->material . " foi apoiada";
+            return "<br>A cadeira de  ".$this->material . " foi apoiada";
         }
          public function segurar() { 
             return "<br>A cadeira ".$this->cor . " segurou";
         }
          public function comportar() { 
-            return "<br>a cadeira de marca  ".$this->marca . " comportou";
+            return "<br>A cadeira de marca  ".$this->marca . " comportou";
         }
     }
 
@@ -117,13 +117,13 @@
 
 
          public function apagar() { 
-            return "<br>o corretivo de marca  ".$this->marca . " apagou";
+            return "<br>O corretivo de marca  ".$this->marca . " apagou";
         }
          public function corrigir() { 
-            return "<br>o corretivo de capacidade  ".$this->capacidade . " corrigiu";
+            return "<br>O corretivo de capacidade  ".$this->capacidade . " corrigiu";
         }
          public function remover() { 
-            return "<br>o corretivo ".$this->tamanho . " removeu 50 palavras";
+            return "<br>O corretivo ".$this->tamanho . " removeu 50 palavras";
         }
     }
 
@@ -150,13 +150,13 @@
 
 
          public function carregar() { 
-            return "<br>a tomada de ".$this->voltagem . " carregou o celular";
+            return "<br>A tomada de ".$this->voltagem . " carregou o celular";
         }
          public function transportar() { 
-            return "<br>a tomada de marca  ".$this->modelo . " transportou energia";
+            return "<br>A tomada de marca  ".$this->modelo . " transportou energia";
         }
          public function ligar() { 
-            return "<br>o celular foi ligado na tomada  ".$this->tamanho;
+            return "<br>O celular foi ligado na tomada  ".$this->tamanho;
         }
     }
 
