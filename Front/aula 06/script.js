@@ -85,8 +85,8 @@ function validarURL(url) {
 const cartaoInput = document.getElementById("cartao");
 const cartaoErro = document.getElementById("erro-cartao");
 function validarCartao(c){
-    c=c.replace(/\s/g,"");
-    return /^\d{16}$/.test(c);
+    c=c.replace(/\s/g,""); //remove espaco em branco
+    return /^\d{16}$/.test(c); //verifica se tem 16 digitos
 }
 
 // ================= SUBMIT =================
