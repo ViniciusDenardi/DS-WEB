@@ -16,22 +16,21 @@
     </ul>
 
     <div class="formulario">
-        <h3>Cadastro de Produtos</h3>
+        <h3>Cadastro de Pedidos</h3>
 
-        <label for="nome">Nome do Produto</label>
-        <input type="text" id="nome" name="nome">
+        <label for="produto_id">Nome do Produto</label>
+        <select id="produto_id"></select>
 
-        <label for="preco">Preço do Produto</label>
-        <input type="text" id="preco" name="preco">
-
-        <label for="categoria">Categoria do Produto</label>
-        <select id="categoria"></select>
-
+        <label for="quantidade">Quantidade do Produto</label>
+        <input type="text" id="quantidade" name="quantidade">
+     
         <button type="button" id="botaoEnviar" class="button button-enviar">Cadastrar</button>
     </div>
 
     <div id="resposta" class="tabela"></div>
 
-    <script src="./assets/js/produtos.js"></script>
+    <div id="total"></div>
+
+    <script src="./assets/js/pedidos_itens.js"></script>
 </body>
 </html>

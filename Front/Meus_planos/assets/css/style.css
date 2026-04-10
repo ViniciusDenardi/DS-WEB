@@ -1,17 +1,50 @@
-
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+}
+
+
+.conteudo {
+  text-align: center;
+  margin-top: 60px;
 }
 
 h2, p {
-  margin: 10px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.imagem {
+  width: 500px;         
+  margin: 20px auto;     
+  border-radius: 15px;    
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
 }
 
 
+.conteudo h1 {
+  color: #54bbfb;
+  margin-top: 40px;
+}
 
-/* ========== Estilização para o Menu ========== */
+
+.conteudo h2 {
+  margin-top: 40px;
+}
+
+
+.card {
+  background: rgb(167, 240, 254);
+  width: 400px;
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* ========== MENU ========== */
 ul {
   list-style-type: none;
   margin: 0;
@@ -36,31 +69,21 @@ ul li a:hover {
   background-color: #111111;
 }
 
-/* Estilização para o Formulário */
-.formulario{
+/* ========== FORMULÁRIO ========== */
+.formulario {
   width: 500px;
-  margin: 0 auto;
-  margin-bottom: 30px;
+  margin: 0 auto 30px auto;
 }
 
 .formulario h3 {
   text-align: center;
 }
 
-
-/* Estilização para os campos do Formulário */
-
-label {display: block;}
-
-input[type=text] {
-  width: 100%;
-  padding: 12px;
-  margin: 10px 0;
-  box-sizing: border-box;
-  border: 2px solid;
-  border-radius: 8px;
+label {
+  display: block;
 }
 
+input[type=text],
 select {
   width: 100%;
   padding: 12px;
@@ -70,35 +93,29 @@ select {
   border-radius: 8px;
 }
 
-/* Estilização para o botão do formulário */
-
+/* Botão */
 .button {
   background-color: white;
   border: none;
   color: black;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  padding: 10px;
   font-size: 16px;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-
 }
 
 .button-enviar {
-  border: 2px solid #04AA6D;
-
+  border: 2px solid #04a2aa;
 }
+
 .button-enviar:hover {
-  background-color: #04AA6D;
+  background-color: #046aaa;
   color: white;
 }
 
-/* ========== Estilização da tabela de Dados ========== */
-
-.tabela{
+/* ========== TABELA ========== */
+.tabela {
   width: 700px;
   margin: 0 auto;
 }
@@ -113,28 +130,22 @@ td, th {
   padding: 8px;
 }
 
-tr:nth-child(even){background-color: #f2f2f2;}
+tr:nth-child(even) {
+  background-color: #dbd7ed;
+}
 
-tr:hover {background-color: #ddd;}
+tr:hover {
+  background-color: #bbb4be;
+}
 
 th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #04AA6D;
+  background-color: #0793b3;
   color: white;
 }
+
 .titulo {
-    width: 100px;
-}
-#total {
-    margin: 20px auto;    
-    padding: 6px 12px;     
-    background: #10a36f;
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    display: block;        
-    width: fit-content;   
-    text-align: center;
+  width: 100px;
 }
